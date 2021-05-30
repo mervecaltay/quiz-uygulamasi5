@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    tools:context="sarveshchavan777.triviaquiz.HomeScreen">
+    <TextView
+        android:id="@+id/tQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Uygulamasi"
+        android:gravity="center"
+        android:textSize="50sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/playGame"
+        fbutton:buttonColor="#0000FF"
+        android:layout_width="300dp"
+        android:text="Quize Basla"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></View>
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/quit"
+        fbutton:buttonColor="#0000FF"
+        android:layout_width="300dp"
+        android:text="BITIR"
+        android:layout_height="wrap_content" />
+</LinearLayout>
